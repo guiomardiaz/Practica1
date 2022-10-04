@@ -12,4 +12,6 @@ export class DatospersonalesPage implements OnInit {
   ngOnInit() {
   }
 
+   
+
 }
