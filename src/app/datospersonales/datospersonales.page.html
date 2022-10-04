@@ -1,18 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>datospersonales</ion-title>
+    <ion-title>Datos Personales</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <br>
   <ion-item>
-    <ion-label>Nombre</ion-label>
-    <br>
-    <ion-textarea placeholder="Nombre"></ion-textarea>
-    <ion-textarea placeholder="Localidad"></ion-textarea>
-    <ion-textarea placeholder="Estudios"></ion-textarea>
-    <ion-textarea placeholder="Email"></ion-textarea>
-    <ion-textarea placeholder="Contraseña" > </ion-textarea>
+    <table class="tabla">
+    <ion-label> Nombre</ion-label> <ion-input>  </ion-input>
+    <ion-label> Localidad</ion-label> <ion-input>  </ion-input>
+    <ion-label> Estudios </ion-label> <ion-input>  </ion-input>
+    <ion-label> Email </ion-label><ion-input type="email">  </ion-input>
+    <ion-label> Numero de Alumno </ion-label><ion-input type="number">  </ion-input>
+    <ion-label> Contraseña </ion-label><ion-input type="password" minlength=5 >  </ion-input>
+    
+  </table>
   </ion-item>
 
 </ion-content>
