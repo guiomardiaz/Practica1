@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { FctPageRoutingModule } from './fct-routing.module';
-
+import { ComponentesModule } from 'src/app/componentes/componentes.module';
 import { FctPage } from './fct.page';
 
 @NgModule({
@@ -13,7 +13,8 @@ import { FctPage } from './fct.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    FctPageRoutingModule
+    FctPageRoutingModule,
+    ComponentesModule
   ],
   declarations: [FctPage]
 })
