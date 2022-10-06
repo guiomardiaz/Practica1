@@ -4,6 +4,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { IonicModule } from '@ionic/angular';
 
 
+
 @NgModule({
   declarations: [CabeceraComponent],
   exports: [CabeceraComponent],

@@ -32,6 +32,10 @@ const routes: Routes = [
     path: 'dam1',
     loadChildren: () => import('./dam1/dam1.module').then( m => m.Dam1PageModule)
   },
+  {
+    path: 'componentes',
+    loadChildren: () => import('./componentes/componentes.module').then( m => m.ComponentesModule)
+  }
 ];
 
 @NgModule({
