@@ -11,35 +11,40 @@ export class Dam1Page implements OnInit {
   asignaturasDAM1 = [
     {
       icono: "people-circle-outline",
-      nombre: "Servicios y Procesos",
+      nombre: "Programacion",
       checkbox: ""
 
     },
     {
       icono: "finger-print-outline",
-      nombre: "Desarrollo de Interfaces",
+      nombre: "Bases de Datos",
       checkbox: ""
     },
     {
       icono: "bag-remove-outline",
-      nombre: "Sistemas de Gestion Empresarial",
+      nombre: "Entornos de Desarrollo",
       checkbox: ""
       
 
     },
     {
       icono: "analytics-outline",
-      nombre: "Acceso a Datos",
+      nombre: "Sistemas Informaticos",
       checkbox: ""
     },
     {
       icono: "aperture-outline",
-      nombre: "Programacion Multimedia",
+      nombre: "Lenguaje de Marcas",
       checkbox: ""
     },
     {
       icono: "airplane-outline",
-      nombre: "Empresas",
+      nombre: "FOL",
+      checkbox: ""
+    },
+    {
+      icono: "airplane-outline",
+      nombre: "Ingles",
       checkbox: ""
     }
     
