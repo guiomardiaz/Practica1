@@ -23,20 +23,20 @@ export class Dam2Page implements OnInit {
       checkbox: ""
     },
     {
-      icono: "sparkles-outline",
-      nombre: "The Legend of Zelda",
+      icono: "",
+      nombre: "",
       checkbox: ""
       
 
     },
     {
-      icono: "game-controller-outline",
-      nombre: "Pac-Man"
+      icono: "",
+      nombre: ""
 
     },
     {
-      icono: "globe-outline",
-      nombre: "Super Mario World"
+      icono: "",
+      nombre: ""
 
     },
     
