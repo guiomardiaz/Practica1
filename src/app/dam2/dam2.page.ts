@@ -23,22 +23,27 @@ export class Dam2Page implements OnInit {
       checkbox: ""
     },
     {
-      icono: "",
-      nombre: "",
+      icono: "bag-remove-outline",
+      nombre: "Sistemas de Gestion Empresarial",
       checkbox: ""
       
 
     },
     {
-      icono: "",
-      nombre: ""
-
+      icono: "analytics-outline",
+      nombre: "Acceso a Datos",
+      checkbox: ""
     },
     {
-      icono: "",
-      nombre: ""
-
+      icono: "aperture-outline",
+      nombre: "Programacion Multimedia",
+      checkbox: ""
     },
+    {
+      icono: "airplane-outline",
+      nombre: "Empresas",
+      checkbox: ""
+    }
     
   ]
 
