@@ -3,6 +3,21 @@
 </ion-header>
 
 <ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>EFA MORATALAZ</ion-label>
+      <ion-button fill="outline" slot="end" href="https://efa-centro.org/efa-moratalaz/">Ver página</ion-button>
+      
+    </ion-item>
+  
+    <ion-card-content>
+      <ion-img style="width: 600px; height: 600px;" src="./../assets/EFA.jpg" > </ion-img>
+       <p>EFA MORATALAZ</p> 
+    </ion-card-content>
+  </ion-card>
+
+
   <ion-list>
     <ion-item>
       <ion-label>Item 1</ion-label>
@@ -27,4 +42,27 @@
 
 
   </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="share"></ion-icon>
+    </ion-fab-button>
+
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://twitter.com/home"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+      <ion-fab-button href="https://www.twitch.tv"><ion-icon name="logo-twitch"></ion-icon></ion-fab-button>
+      <ion-fab-button href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    
+    <ion-fab-list side="start">
+      <ion-fab-button href="https://github.com"><ion-icon name="logo-github" >  </ion-icon></ion-fab-button>
+      <ion-fab-button href="https://angular.io"> <ion-icon name="logo-angular"></ion-icon></ion-fab-button>
+      <ion-fab-button href="https://lenguajejs.com"> <ion-icon name="logo-javascript"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+
+    
+    
+  </ion-fab>
+
+
 </ion-content>

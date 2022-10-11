@@ -52,7 +52,8 @@ export class Dam2Page implements OnInit {
     }
     
   ]
-
+  
+  mostrar = true;
   ngOnInit() {
   }
 
