@@ -12,38 +12,43 @@ export class Dam2Page implements OnInit {
 
   asignaturas = [
     {
-      icono: "people-circle-outline",
+      icono: "./../assets/icon/servicios.png",
       nombre: "Servicios y Procesos",
       checkbox: "",
-      img: ""
+  
 
     },
     {
-      icono: "finger-print-outline",
+      icono: "./../assets/icon/interfaces.png",
       nombre: "Desarrollo de Interfaces",
-      checkbox: ""
+      checkbox: "",
+      
     },
     {
-      icono: "bag-remove-outline",
+      icono: "./../assets/icon/empresas.png",
       nombre: "Sistemas de Gestion Empresarial",
-      checkbox: ""
+      checkbox: "",
+     
       
 
     },
     {
-      icono: "analytics-outline",
+      icono: "./../assets/icon/aadd.png",
       nombre: "Acceso a Datos",
-      checkbox: ""
+      checkbox: "",
+      
     },
     {
-      icono: "aperture-outline",
+      icono: "./../assets/icon/multimedia.png",
       nombre: "Programacion Multimedia",
-      checkbox: ""
+      checkbox: "",
+      
     },
     {
-      icono: "airplane-outline",
+      icono: "./../assets/icon/udyr.png",
       nombre: "Empresas",
-      checkbox: ""
+      checkbox: "",
+     
     }
     
   ]
