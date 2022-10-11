@@ -10,7 +10,7 @@ export class Dam1Page implements OnInit {
   constructor() { }
   asignaturasDAM1 = [
     {
-      icono: "people-circle-outline",
+      icono: "prog.png",
       nombre: "Programacion",
       checkbox: ""
 
