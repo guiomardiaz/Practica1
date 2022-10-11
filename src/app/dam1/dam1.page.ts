@@ -10,40 +10,40 @@ export class Dam1Page implements OnInit {
   constructor() { }
   asignaturasDAM1 = [
     {
-      icono: "prog.png",
+      icono: "./../assets/prog.png",
       nombre: "Programacion",
       checkbox: ""
 
     },
     {
-      icono: "finger-print-outline",
+      icono: "./../assets/bbdd.png",
       nombre: "Bases de Datos",
       checkbox: ""
     },
     {
-      icono: "bag-remove-outline",
+      icono: "./../assets/entornos.png",
       nombre: "Entornos de Desarrollo",
       checkbox: ""
       
 
     },
     {
-      icono: "analytics-outline",
+      icono: "./../assets/sistemas.png",
       nombre: "Sistemas Informaticos",
       checkbox: ""
     },
     {
-      icono: "aperture-outline",
+      icono: "./../assets/lenguaje.png",
       nombre: "Lenguaje de Marcas",
       checkbox: ""
     },
     {
-      icono: "airplane-outline",
+      icono: "./../assets/fol.png",
       nombre: "FOL",
       checkbox: ""
     },
     {
-      icono: "airplane-outline",
+      icono: "./../assets/ing.png",
       nombre: "Ingles",
       checkbox: ""
     }
