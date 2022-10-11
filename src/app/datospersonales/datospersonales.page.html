@@ -11,13 +11,14 @@
   <br>
   <ion-item>
     <table class="tabla">
-    <ion-label> Nombre</ion-label> <ion-input>  </ion-input>
+    <ion-label> Nombre</ion-label> <ion-input type = "text" [(ngModel)] = nombre>  </ion-input>
+    <ion-label> Apellidos</ion-label> <ion-input type = "text" [(ngModel)] = apellidos>  </ion-input>
     <ion-label> Localidad</ion-label> <ion-input>  </ion-input>
     <ion-label> Estudios </ion-label> <ion-input>  </ion-input>
     <ion-label> Email </ion-label><ion-input type="email">  </ion-input>
     <ion-label> Numero de Alumno </ion-label><ion-input type="number">  </ion-input>
-    <ion-label> Contraseña </ion-label><ion-input type="password" minlength="5" >  </ion-input>
-    <ion-button fill="outline" size="large">Enviar</ion-button>
+    <ion-label> Contraseña </ion-label><ion-input type="password" minlength="5" maxlength="10">  </ion-input>
+    <ion-button type = "button" (click)="showAlert()" fill="outline" size="large">Enviar</ion-button>
     
   </table>
   </ion-item>

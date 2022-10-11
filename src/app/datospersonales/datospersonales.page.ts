@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DatospersonalesPage implements OnInit {
 
+  public nombre: string;
+  public apellidos: string;
   constructor() { }
 
   ngOnInit() {
   }
-
-   
-
+public showAlert(): void {
+   alert(`Bienvenido ${this.nombre} ${this.apellidos}`);
+}
 }

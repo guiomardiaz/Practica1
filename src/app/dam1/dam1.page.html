@@ -7,11 +7,18 @@
 
   <ion-list>
     <ion-item *ngFor="let h of asignaturasDAM1">
+     
+      
       <ion-avatar> <img [src]= "h.icono" /> </ion-avatar>
       
-      <ion-label> {{h.nombre}}</ion-label> 
-      <ion-checkbox> </ion-checkbox>
+      <ion-label>{{h.nombre}}</ion-label> 
+      
+     
+      <ion-checkbox (click)="showAlert()"></ion-checkbox>
+      
 
+     
+      
     </ion-item>
 
 

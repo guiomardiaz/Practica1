@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Dam1Page implements OnInit {
 
+
+
+
+
   constructor() { }
   asignaturasDAM1 = [
     {
@@ -52,5 +56,7 @@ export class Dam1Page implements OnInit {
 
   ngOnInit() {
   }
-
+  public showAlert(): void {
+    alert(`Asignatura seleccionada`);
+ }
 }
