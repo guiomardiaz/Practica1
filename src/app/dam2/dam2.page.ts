@@ -14,7 +14,8 @@ export class Dam2Page implements OnInit {
     {
       icono: "people-circle-outline",
       nombre: "Servicios y Procesos",
-      checkbox: ""
+      checkbox: "",
+      img: ""
 
     },
     {
