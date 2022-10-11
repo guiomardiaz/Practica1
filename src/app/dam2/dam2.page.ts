@@ -53,8 +53,11 @@ export class Dam2Page implements OnInit {
     
   ]
   
-  mostrar = true;
+
   ngOnInit() {
   }
+  public showAlert(): void {
+    alert(`Asignatura seleccionada`);
+ }
 
 }
