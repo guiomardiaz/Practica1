@@ -8,8 +8,9 @@
     <ion-item *ngFor="let e of asignaturas">
       <ion-avatar><img [src]="e.icono"></ion-avatar>
       <ion-label> {{e.nombre}}</ion-label> 
-      <ion-checkbox> </ion-checkbox>
-      
+     
+      <ion-checkbox *ngIf = "mostrar else bloqueElse">  aa </ion-checkbox>
+      <ng-template #bloqueElse> {{mostrar}} = false </ng-template>
 
     </ion-item>
 
